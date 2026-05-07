@@ -21,3 +21,14 @@ sudo nano /etc/zabbix/zabbix_server.conf  # Установка DBPassword
 
 sudo systemctl restart zabbix-server apache2
 sudo systemctl enable zabbix-server  apache2
+
+## Результат установки
+
+### Скриншот авторизации в веб-интерфейсе Zabbix
+
+![Страница авторизации Zabbix](screenshots/zabbix-login.png)
+
+
+### Скриншот главного дашборда после входа
+
+![Дашборд Zabbix](screenshots/zabbix-login2.png)
