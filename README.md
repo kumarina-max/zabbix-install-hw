@@ -27,10 +27,8 @@ sudo systemctl enable zabbix-server  apache2
 ## Результат установки
 
 ### Скриншот авторизации в веб-интерфейсе Zabbix
-```markdown 
-![Страница авторизации Zabbix](screenshots/zabbix-login.png)
 
+```markdown
+![Страница авторизации Zabbix](https://raw.githubusercontent.com/kumarina-max/zabbix-install-hw/main/screenshots/zabbix-login.png)
 
-### Скриншот главного дашборда после входа
-
-![Дашборд Zabbix](screenshots/zabbix-login2.png)
+![Дашборд Zabbix](https://raw.githubusercontent.com/kumarina-max/zabbix-install-hw/main/screenshots/zabbix-login2.png)
