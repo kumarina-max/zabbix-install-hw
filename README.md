@@ -1,5 +1,5 @@
-# zabbix-install-hw
 # Домашнее задание к занятию «Система мониторинга Zabbix» Кукушкина Марина
+**Марина Кукушкина**
 
 # Задание 1
 В рамках домашнего задания был установлен Zabbix Server 7.0 с поддержкой PostgreSQL и веб-интерфейсом на базе Apache. Установка производилась на виртуальную машину Debian 11 в Yandex Cloud
@@ -24,7 +24,8 @@ sudo nano /etc/zabbix/zabbix_server.conf  # Установка DBPassword
 sudo systemctl restart zabbix-server apache2
 sudo systemctl enable zabbix-server  apache2
 
-### Результат установки
+```yaml 
+# Результат установки
 
 ### Скриншот авторизации в веб-интерфейсе Zabbix
 ![Страница авторизации](screenshots/zabbix-login.png)
