@@ -27,7 +27,7 @@ sudo systemctl enable zabbix-server  apache2
 ## Результат установки
 
 ### Скриншот авторизации в веб-интерфейсе Zabbix
-
+```markdown 
 ![Страница авторизации Zabbix](screenshots/zabbix-login.png)
 
 
