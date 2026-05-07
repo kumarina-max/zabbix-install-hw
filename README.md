@@ -1,9 +1,11 @@
 # zabbix-install-hw
-Домашнее задание к занятию «Система мониторинга Zabbix» Кукушкина Марина
-Задание 1
-В рамках домашнего задания был установлен Zabbix Server 7.0 с поддержкой PostgreSQL и веб-интерфейсом на базе Apache. Установка производилась на виртуальную машину Debian 11 в Yandex Cloud
+# Домашнее задание к занятию «Система мониторинга Zabbix» Кукушкина Марина
+
+# Задание 1
+# В рамках домашнего задания был установлен Zabbix Server 7.0 с поддержкой PostgreSQL и веб-интерфейсом на базе Apache. Установка производилась на виртуальную машину Debian 11 в Yandex Cloud
 
 # Все использованные команды для установки
+
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y postgresql postgresql-contrib
 
