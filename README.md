@@ -1,4 +1,3 @@
-markdown
 # zabbix-install-hw
 # Домашнее задание к занятию «Система мониторинга Zabbix» Кукушкина Марина
 
@@ -28,7 +27,5 @@ sudo systemctl enable zabbix-server  apache2
 ## Результат установки
 
 ### Скриншот авторизации в веб-интерфейсе Zabbix
-
-
-![Страница авторизации](https://github.com/kumarina-max/zabbix-install-hw/blob/main/screenshots/%20zabbix-login.png)
+![Страница авторизации](screenshots/zabbix-login.png)
  
