@@ -31,3 +31,5 @@ sudo systemctl enable zabbix-server  apache2
 
 ### Скриншот главного дашборда после входа
 ![Дашборд Zabbix](https://github.com/kumarina-max/zabbix-install-hw/blob/main/screenshots/%20zabbix-login2.png)
+
+# Задание 2
