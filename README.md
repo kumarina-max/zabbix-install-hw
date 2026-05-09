@@ -65,15 +65,15 @@ sudo tail -15 /var/log/zabbix-agent/zabbix_agentd.log
 ### Установка
 sudo apt update && sudo apt install -y zabbix-agent
 
-# Редактирование конфига
+### Редактирование конфига
 sudo nano /etc/zabbix/zabbix_agentd.conf
 # Прописать: Server=IP_сервера, ServerActive=IP_сервера, Hostname=agent
 
-# Запуск
+### Запуск
 sudo systemctl restart zabbix-agent
 sudo systemctl enable zabbix-agent
 
-# Проверка
+### Проверка
 sudo systemctl status zabbix-agent
 sudo tail -15 /var/log/zabbix-agent/zabbix_agentd.log
 
