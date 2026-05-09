@@ -62,47 +62,19 @@ sudo tail -15 /var/log/zabbix-agent/zabbix_agentd.log
 
 ## 4. Использованные команды
 
-# ============================================
-# 1. УСТАНОВКА ZABBIX AGENT
-# ============================================
+# Установка
+sudo apt update && sudo apt install -y zabbix-agent
 
-# Обновление списка пакетов
-sudo apt update
-
-# Установка агента
-sudo apt install -y zabbix-agent
-
-
-# ============================================
-# 2. НАСТРОЙКА КОНФИГУРАЦИИ
-# ============================================
-
-# Открытие файла конфигурации для редактирования
+# Редактирование конфига
 sudo nano /etc/zabbix/zabbix_agentd.conf
-ini
-# Параметры, которые были установлены в файле:
-Server=IP_адрес_Zabbix_сервера
-ServerActive=IP_адрес_Zabbix_сервера
-Hostname=agent
-bash
-# ============================================
-# 3. ЗАПУСК И АВТОЗАГРУЗКА
-# ============================================
+# Прописать: Server=IP_сервера, ServerActive=IP_сервера, Hostname=agent
 
-# Перезапуск агента для применения настроек
+# Запуск
 sudo systemctl restart zabbix-agent
-
-# Добавление в автозагрузку
 sudo systemctl enable zabbix-agent
 
-# Проверка статуса
+# Проверка
 sudo systemctl status zabbix-agent
-
-
-# ============================================
-# 4. ПРОСМОТР ЛОГОВ
-# ============================================
-
-# Последние 15 строк лога
 sudo tail -15 /var/log/zabbix-agent/zabbix_agentd.log
+
 
