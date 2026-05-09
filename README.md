@@ -53,3 +53,9 @@ sudo tail -15 /var/log/zabbix-agent/zabbix_agentd.log
 ```
 
 ![Log zabbix agent](screenshots/logs.png)
+
+## 3. Поступающие данные (Monitoring → Latest data)
+Скриншот раздела Monitoring → Latest data демонстрирует, что от обоих хостов (Zabbix server и agent) поступают актуальные данные. 
+
+![Monitoring1 > Latest data](screenshots/monitoring1.png)
+![Monitoring2 > Latest data](screenshots/monitoring2.png)
