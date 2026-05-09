@@ -62,7 +62,7 @@ sudo tail -15 /var/log/zabbix-agent/zabbix_agentd.log
 
 ## 4. Использованные команды
 
-# Установка
+### Установка
 sudo apt update && sudo apt install -y zabbix-agent
 
 # Редактирование конфига
