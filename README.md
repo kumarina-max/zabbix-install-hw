@@ -50,4 +50,6 @@ sudo systemctl enable zabbix-server  apache2
 **Команда для просмотра лога:**
 ```bash
 sudo tail -15 /var/log/zabbix-agent/zabbix_agentd.log
-Вывод команды:
+```
+
+![Log zabbix agent](screenshots/logs.png)
