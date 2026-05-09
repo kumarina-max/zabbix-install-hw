@@ -67,7 +67,7 @@ sudo apt update && sudo apt install -y zabbix-agent
 
 ### Редактирование конфига
 sudo nano /etc/zabbix/zabbix_agentd.conf
-# Прописать: Server=IP_сервера, ServerActive=IP_сервера, Hostname=agent
+### прописала: Server=IP_сервера, ServerActive=IP_сервера, Hostname=agent
 
 ### Запуск
 sudo systemctl restart zabbix-agent
