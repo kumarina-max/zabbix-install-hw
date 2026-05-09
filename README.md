@@ -33,3 +33,21 @@ sudo systemctl enable zabbix-server  apache2
 ![Дашборд Zabbix](https://github.com/kumarina-max/zabbix-install-hw/blob/main/screenshots/%20zabbix-login2.png)
 
 # Задание 2
+
+## 1. Подключенные агенты (Configuration → Hosts)
+
+На скриншоте ниже представлен раздел **Configuration → Hosts**, где видно, что оба хоста (`Zabbix server` и `agent`) созданы и подключены к серверу. У обоих хостов настроен интерфейс Zabbix agent, подключены необходимые шаблоны, статус активен (Enabled).
+
+![Configuration > Hosts](screenshots/Hosts.png)
+
+
+---
+
+## 2. Лог Zabbix Agent — подтверждение работы с сервером
+
+Ниже приведён вывод лога Zabbix Agent, который подтверждает, что агент успешно запускается, подключается к серверу и выполняет активные проверки. В логе виден перезапуск процесса, указание конфигурационного файла и запуск потоков для активных проверок (`active checks #1`).
+
+**Команда для просмотра лога:**
+```bash
+sudo tail -15 /var/log/zabbix-agent/zabbix_agentd.log
+Вывод команды:
